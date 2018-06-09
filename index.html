@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<head>
+	<link rel="icon" href="res/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/VirtualFlightDeck.css">
+	<title>vFlightD3ck</title>
+	<script type="text/javascript" src="js/lib/d3.v4.js"></script>
+	<script type="text/javascript" src="js/lib/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/lib/FileSaver.js"></script>
+</head>
+<body oncontextmenu="return false" onload="initPage()">
+vFlightD3ck (c) marcosox 2018 - <a href="doc/help.html" target="_blank">Click to open help</a>
+<hr>
+<div id="toolbarDiv">
+	<form>
+		Show deck: <select name="deck" id="view_select"
+						   onChange="changeDeckListener(this.options[this.options.selectedIndex].value)"
+						   title="Deck selection"></select>
+		<input type="button" value="ADD OBJECT(S)" onclick="$('#addDiv').toggle()">
+		<input type="button" value="IMPORT/EXPORT" onclick="$('#importDiv').toggle()">
+		<input type="button" value="CLEAR CURRENT DECK" onclick="clearView()">
+		<input type="button" value="CLEAR ALL DECKS" onclick="clearAllDecksButton()">
+		<label for="hotspotSelect">Jump to hotspot: </label><select name="hotspot" id="hotspotSelect"></select>
+		<input type="button" value="GO" onclick="jumpToHotspotButton(document.getElementById('hotspotSelect').value)">
+		<br>
+	</form>
+	<hr>
+</div>
+<div id="addDiv">
+	<h2>ADD OBJECTS</h2>
+	<label for="aircraftSelector">Object: </label><select name="aircraft" id="aircraftSelector"></select><br>
+	<label for="quantity">Quantity: </label><input name="quantity" id="quantity" type="number" size="2" value="1"
+												   min="1" max="99"/><br>
+	<label for="aircraft_id">Text label: </label><input type="text" id="aircraft_id" value=""><br>
+	<label for="inputX">X: </label><input name="x" id="inputX" type="number" size="4" value="0" min="0" max="9999"/>
+	(Optional - 0 is default)<br>
+	<label for="inputY">Y: </label><input name="y" id="inputY" type="number" size="4" value="0" min="0" max="9999"/>
+	(Optional - 0 is default)<br>
+	<label for="inputR">Rotation: </label><input name="r" id="inputR" type="number" size="3" value="0" min="0"
+												 max="359"/> (Optional)<br>
+	<input type="button" id="addButton" name="Add_aircraft" value="ADD AIRCRAFT" onclick="addAircraftButton()"/><br>
+	Quick add fleets:
+	<input type="button" value="US Carrier Wing" onclick="addUSNCVWButton()"/>
+	<input type="button" value="IT Cavour Carrier Wing" onclick="addITACavourCVWButton()"/>
+	<input type="button" value="IT Garibaldi Carrier Wing" onclick="addITAGaribaldiCVWButton()"/>
+	<input type="button" value="Test Fleet" onclick="addTestFleetButton()"/>
+	<hr>
+</div>
+<div id="importDiv">
+	<h2>Import/export</h2>
+	<input type="button" value="EXPORT ACTIVE DECK" onclick="exportCurrentDeckButton()"/>
+	<input type="button" value="EXPORT ALL DECKS" onclick="exportAllDecksButton()"/><br>
+	<input type="file" id="fileChooser">
+	<input type="button" value="IMPORT DECKS"
+		   onclick="importFromFileButton(document.getElementById('fileChooser').files[0])">
+	or
+	<input type="button" value="ADD TO ACTIVE DECK"
+		   onclick="importToCurrentDeckButton(document.getElementById('fileChooser').files[0])">
+	<br>
+	<label for="jsonText">Paste file contents here for manual import:</label>
+	<input type="text" id="jsonText" value="">
+	<input type="button" value="IMPORT JSON"
+		   onclick="importConfigsFromJsonButton(JSON.parse(document.getElementById('jsonText').value))">
+	<hr>
+</div>
+<div id="colorPaletteDiv">
+	<span id="colorPaletteHeader">Launch/recovery order:</span>
+	<table>
+		<tbody>
+		<tr id="colorPalette">
+		</tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="deckArea">
+	<svg id="svg_element" viewBox="0 0 1366 768" preserveAspectRatio="xMinYMin meet"></svg>
+</div>
+
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/installedDecks.js"></script>
+<script type="text/javascript" src="js/installedAircrafts.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
+<script type="text/javascript" src="js/deck-manager.js"></script>
+</body>
+</html>

@@ -1,0 +1,698 @@
+[
+  {
+    "deckId": "nimitzDeck",
+    "config": [
+      {
+        "id": "8617b6c0-a478-4646-998c-22d0519024b6",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 132.80862426757812,
+        "y": 292.22975158691406,
+        "r": 16.3963623046875,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "bb57b326-ad06-4f68-a072-4e15d800c41c",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 176.9031982421875,
+        "y": 301.45262145996094,
+        "r": 31.768020629882812,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "bb55f70e-bb13-466f-a397-fff894a40a4c",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 210.75003051757812,
+        "y": 304.52696228027344,
+        "r": 15.371612548828125,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "f2afa1ef-51f7-465f-8eb5-6e5dedc98c0f",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 211.05856323242188,
+        "y": 84.62838745117188,
+        "r": 196.7566680908203,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "8b94f9b5-f03c-4897-818e-ca479babc4ac",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 246.95498657226562,
+        "y": 87.70271301269531,
+        "r": 185.48416137695312,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "3b079836-1238-43e6-8fb5-fdf7e6125cd8",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 282.8514099121094,
+        "y": 85.65316772460938,
+        "r": 190.6080322265625,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "d9414b76-0805-467d-b075-afc8501bdd6a",
+        "label": "",
+        "model": "SH60",
+        "shape": "fold",
+        "x": 441.684814453125,
+        "y": 270.70948791503906,
+        "r": 168.06298828125,
+        "fill": "gray",
+        "width": 56,
+        "heigth": 56,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread",
+          "running"
+        ]
+      },
+      {
+        "id": "e986e0c5-d645-47df-b7af-d04de49f3a0e",
+        "label": "",
+        "model": "SH60",
+        "shape": "fold",
+        "x": 423.5700378417969,
+        "y": 275.8332824707031,
+        "r": 164.98867797851562,
+        "fill": "gray",
+        "width": 56,
+        "heigth": 56,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread",
+          "running"
+        ]
+      },
+      {
+        "id": "54d82ecd-2ccc-4a40-b2ea-3d0c405b364d",
+        "label": "",
+        "model": "SH60",
+        "shape": "fold",
+        "x": 400.331298828125,
+        "y": 279.9324188232422,
+        "r": 157.81524658203125,
+        "fill": "gray",
+        "width": 56,
+        "heigth": 56,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread",
+          "running"
+        ]
+      },
+      {
+        "id": "0cc1cad0-382f-45b7-a31d-7bc44d7bfa62",
+        "label": "",
+        "model": "E2",
+        "shape": "fold",
+        "x": 510.869384765625,
+        "y": 313.7499237060547,
+        "r": 0,
+        "fill": "gray",
+        "width": 87,
+        "heigth": 67,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "3dd24013-02f2-41d8-a755-72d65a8e5283",
+        "label": "",
+        "model": "E2",
+        "shape": "fold",
+        "x": 339.16680908203125,
+        "y": 278.9076385498047,
+        "r": 0,
+        "fill": "gray",
+        "width": 87,
+        "heigth": 67,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "a01f6cdb-0f5a-4a3c-8bbd-b59508873211",
+        "label": "",
+        "model": "CRANE",
+        "shape": "normal",
+        "x": 394.7318344116211,
+        "y": 337.3197784423828,
+        "r": -178.31066703796387,
+        "fill": "gray",
+        "width": 20,
+        "heigth": 56,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "cdc8869f-2ac4-4aef-a5ec-921342cd421d",
+        "label": "",
+        "model": "FORKLIFT_LARGE",
+        "shape": "normal",
+        "x": 411.4841537475586,
+        "y": 310.67559814453125,
+        "r": 11.272500038146973,
+        "fill": "gray",
+        "width": 9,
+        "heigth": 25,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "f181900d-8846-4d20-84e9-99a85cc8fa8b",
+        "label": "",
+        "model": "FORKLIFT_SMALL",
+        "shape": "normal",
+        "x": 395.4098663330078,
+        "y": 317.84910583496094,
+        "r": 24.594600677490234,
+        "fill": "gray",
+        "width": 9,
+        "heigth": 20,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "0966608a-75ca-45e9-9ecc-2fcc236ff326",
+        "label": "",
+        "model": "TOWBAR",
+        "shape": "normal",
+        "x": 236.95044708251953,
+        "y": 149.78610229492188,
+        "r": 179.3355255126953,
+        "fill": "gray",
+        "width": 9,
+        "heigth": 15,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "bef10856-bbde-402b-87fc-5b32ed5feb5e",
+        "label": "",
+        "model": "TOWBAR",
+        "shape": "normal",
+        "x": 485.3467712402344,
+        "y": 297.35357666015625,
+        "r": 0,
+        "fill": "gray",
+        "width": 9,
+        "heigth": 15,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "01d6a0c8-03e7-43d5-a556-3df5c1095113",
+        "label": "",
+        "model": "TOWTRACTOR",
+        "shape": "normal",
+        "x": 117.72977447509766,
+        "y": 311.70037841796875,
+        "r": -47.139617919921875,
+        "fill": "gray",
+        "width": 10,
+        "heigth": 20,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "c305f985-41e4-40ad-a74c-4daf8641779a",
+        "label": "",
+        "model": "TOWTRACTOR",
+        "shape": "normal",
+        "x": 885.2857666015625,
+        "y": 355.765625,
+        "r": 52.263427734375,
+        "fill": "gray",
+        "width": 10,
+        "heigth": 20,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "7d34edf7-a5ea-4ccc-afe2-5825ced37962",
+        "label": "",
+        "model": "TOWTRACTOR",
+        "shape": "normal",
+        "x": 511.24315643310547,
+        "y": 288.1305389404297,
+        "r": 43.040496826171875,
+        "fill": "gray",
+        "width": 10,
+        "heigth": 20,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "7c77fea2-1b47-4bf0-9cc6-8a04c1898dce",
+        "label": "",
+        "model": "TOWTRACTOR",
+        "shape": "normal",
+        "x": 511.24317169189453,
+        "y": 266.61041259765625,
+        "r": 52.26348876953125,
+        "fill": "gray",
+        "width": 10,
+        "heigth": 20,
+        "fontSize": 8,
+        "shapes": [
+          "normal"
+        ]
+      },
+      {
+        "id": "f3d4ddd0-0482-41ee-9631-ea1906ff68a2",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 595.9659729003906,
+        "y": 316.75672912597656,
+        "r": 2.04962158203125,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "134650db-d6a4-4c9a-a07f-a1c84a796ecf",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 633.3871765136719,
+        "y": 316.2611846923828,
+        "r": 2.049560546875,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "78873f4d-76c9-443b-9f57-b6ede49d1b82",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 683.6348571777344,
+        "y": 315.2702178955078,
+        "r": 10.247802734375,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "6e61385d-a171-4fe1-a260-07e37df4b127",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 248.1711883544922,
+        "y": 318.37828063964844,
+        "r": 2.0495452880859375,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "71865f4b-f832-4aad-9cbb-328614fad8fc",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 318.2230224609375,
+        "y": 88.23199462890625,
+        "r": 203.93011474609375,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "046ab1ae-0760-4542-b226-17d103884a0e",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 716.9569396972656,
+        "y": 318.87379455566406,
+        "r": -1.024658203125,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "a2d2122a-b191-4802-8055-98230f75c9b8",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 557.6214294433594,
+        "y": 221.02474975585938,
+        "r": -128.0966796875,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "4b1b0178-fd77-4015-9804-7eb32575d943",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 640.1326599121094,
+        "y": 213.35586547851562,
+        "r": 198.80633544921875,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "08d92b72-147f-459a-8d01-4b6887db0d6a",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 866.1123962402344,
+        "y": 166.7455291748047,
+        "r": -121.947998046875,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "4f3899c2-0d1a-4fd7-9ccf-69197ac5aa22",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 753.3533630371094,
+        "y": 319.40309143066406,
+        "r": -44.06512451171875,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "5b4e3e61-22a3-47e1-9e55-548b5cb77624",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 601.1912536621094,
+        "y": 220.52931213378906,
+        "r": -151.66650390625,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "8b0a7472-625e-4cfb-ae58-9dfc74fb297d",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 907.6326599121094,
+        "y": 167.27484130859375,
+        "r": -135.2701416015625,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "9290f3d6-d2ab-4c1b-84ba-637886db1b86",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1081.8442077636719,
+        "y": 150.87847900390625,
+        "r": -148.59210205078125,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "84ee801f-a3ab-485d-864c-13a699c65eb2",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1123.3644104003906,
+        "y": 156.53158569335938,
+        "r": -156.790283203125,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "b9a01da5-31a5-4b30-b170-4565fbeb85aa",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1161.8102722167969,
+        "y": 158.085693359375,
+        "r": -157.8150634765625,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "926be504-c411-40f9-a4bf-ef682848a336",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1198.2066955566406,
+        "y": 162.71405029296875,
+        "r": -158.83984375,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "fbe3e73b-c4d0-4932-9374-f6249945ade1",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1234.6033020019531,
+        "y": 167.34243774414062,
+        "r": -155.765625,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "36888498-d136-4764-b318-bd26538d8b36",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1266.9005432128906,
+        "y": 171.97080993652344,
+        "r": -157.8150634765625,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "53ba9697-0749-4d4a-ad4f-bd8be7c39298",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1301.2473449707031,
+        "y": 177.6239471435547,
+        "r": -127.0718994140625,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "3bc8bead-04ee-4b63-8ed1-16369f65db8d",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 960.4253845214844,
+        "y": 158.58114624023438,
+        "r": -122.9727783203125,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      },
+      {
+        "id": "b5a8482e-4340-460f-912a-e5f4c1746140",
+        "label": "",
+        "model": "F18",
+        "shape": "fold",
+        "x": 1021.4162902832031,
+        "y": 152.9617919921875,
+        "r": -133.220458984375,
+        "fill": "gray",
+        "width": 39,
+        "heigth": 65,
+        "fontSize": 20,
+        "shapes": [
+          "fold",
+          "spread"
+        ]
+      }
+    ]
+  }
+]
