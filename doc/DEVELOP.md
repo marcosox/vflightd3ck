@@ -1,4 +1,4 @@
-#DEVELOPING
+# DEVELOPING
 
 ## Source files organization
 - `js`: app code
