@@ -4,6 +4,10 @@ A deck management and planning tool for simulated aircraft carrier operations.
 
 Technically, a virtual [Ouja board](https://commons.wikimedia.org/wiki/Category:Ouija_boards_(aircraft_carrier)).
 
+## Demo
+
+See the latest version of the [application working online.](http://htmlpreview.github.io/?https://github.com/marcosox/vflightd3ck/blob/master/index.html)
+
 ## Installation
 This app can be hosted on any webserver.
 Download the latest release from the [releases page] and unpack it in the server HTTP documents folder of your choice.
