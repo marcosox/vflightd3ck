@@ -6,7 +6,7 @@ Technically, a virtual [Ouja board](https://commons.wikimedia.org/wiki/Category:
 
 ## Demo
 
-See the latest version of the [application working online.](http://htmlpreview.github.io/?https://github.com/marcosox/vflightd3ck/blob/master/index.html)
+See the latest version of the [application working online.](http://marcosox.github.io/vflightd3ck/)
 
 ## Installation
 This app can be hosted on any webserver.
